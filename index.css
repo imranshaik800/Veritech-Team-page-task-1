@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 10px;
+    
+}
+.amazon-bg-container {
+   
+    padding: 10px;
+    
+    
+} 
+
+.main-heading {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    color: red;
+} 
+
+.amazon-description {
+    
+
+    font-family: "roboto";
+    font-size: 20px;
+
+} 
+
+hr {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+} 
+
+.amazon-ceo-section {
+    text-align: center;
+}
+
+.ceo-card-section {
+    box-shadow: 2px 2px 3px 3px  #888888;
+    padding: 10px;
+    margin-left: 200px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+
+@media screen and (max-width:1000px) {
+    .ceo-card-section {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 3px 3px  #888888;
+        margin-left: 0px;
+        margin: 15px;
+
+    }
+}
+
+@media screen and (min-width:1000px){
+    .ceo-card-section {
+    
+        padding: 0px;
+        
+        box-shadow: 2px 2px 3px 3px  #888888;
+        margin-left: 50px;
+        
+        margin-top: 50px;
+
+    }
+}
+
+
+.jeff-bezos {
+    height: 450px;
+    
+}
+
+@media screen and (max-width:500px){
+    .jeff-bezos {
+        height: 250px;
+        
+
+    }
+}
+
+p {
+    font-size: 18px;
+} 
+
+.development-card-section {
+    
+    box-shadow: 2px 2px 2px 2px #D3D3D3;
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px;
+
+    
+} 
+
+.development-card-section-direction {
+    display: flex;
+    
+    
+    flex-wrap: wrap;
+} 
+
+.development-image {
+    width: 250px;
+} 
+
+.sales-development-card-section {
+    display: flex;
+    flex-wrap: wrap;
+}
